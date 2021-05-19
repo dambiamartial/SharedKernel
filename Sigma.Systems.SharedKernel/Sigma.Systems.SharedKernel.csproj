@@ -10,6 +10,11 @@
     <Product>Sigma.Systems.SharedKernel</Product>
     <PackageId>Sigma.Systems.SharedKernel</PackageId>
     <RepositoryUrl>https://github.com/dambiamartial/SharedKernel</RepositoryUrl>
+    <PackageIcon>Favicon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
 
 </Project>
