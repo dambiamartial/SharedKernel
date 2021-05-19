@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>NGASSAM DAMBIA Martial L.</Authors>
+    <Company>Sigma Systems</Company>
+    <Description>Shared base entity classes for domain-driven design development</Description>
+    <Copyright>Sigma Systems @2021</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Sigma.Systems.SharedKernel</Product>
+    <PackageId>Sigma.Systems.SharedKernel</PackageId>
+    <RepositoryUrl>https://github.com/dambiamartial/SharedKernel</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
