@@ -7,8 +7,8 @@ namespace Sigma.Systems.SharedKernel
     public abstract class Entity
     {
         int? _requestedHashCode;
-        int _Id;
-        public virtual int Id
+        Guid _Id;
+        public virtual Guid Id
         {
             get
             {
@@ -16,7 +16,7 @@ namespace Sigma.Systems.SharedKernel
             }
             protected set
             {
-                _Id = value;
+                _Id = Guid.NewGuid();
             }
         }
 
